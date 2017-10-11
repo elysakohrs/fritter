@@ -1,0 +1,23 @@
+<li class="list-group-item following-users-li">
+	Following Users
+	<ul id="following-list-group" class="list-group">
+		{{#each following}}
+		<li val="{{_id}}" class="list-group-item">
+			<span class="username-cell">{{this.fullName}}</span> @{{this.username}}
+		</li>
+		{{/each}}
+	</ul>
+</li>
+
+<li class="list-group-item non-following-users-li">
+	Non-Following Users
+	<ul id="non-following-list-group" class="list-group">
+		{{#each nonFollowing}}
+		<li val="{{_id}}" class="list-group-item">
+			<span class="username-cell">{{this.fullName}}</span> @{{this.username}}		
+			<button type="button" class="follow-btn btn btn-success">Follow</button>
+		</li>
+		{{/each}}
+	</ul>
+</li>
+

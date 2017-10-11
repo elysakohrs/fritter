@@ -1,0 +1,78 @@
+.input-group, #logout-btn {
+	margin-top: 20px;
+	float: right;
+}
+
+#freet-button {
+	float: right;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100%;
+    background-color: #effcef;
+}
+
+.hover-row {
+	background-color: gray !important;
+}
+
+.remove-link, .refreet-link {
+	float: right;
+}
+
+.username-cell {
+	font-weight: bold;
+}
+
+#logout-btn {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+#new-freet {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.dot-and-time {
+	color: rgb(136, 153, 166);
+	font-size: 13px;
+}
+
+#freet-table {
+	margin: 10px 0;
+}
+
+.refreet-panel {
+	margin: 5px 0 0 20px;
+}
+
+.refreet-panel-body {
+	padding: 10px 15px;
+}
+
+.follow-btn {
+	float: right;
+	margin-top: -7px;
+}
+
+.switch-login-signup {
+	padding-top: 12px;
+}
+
+#login-submit-btn, #signup-submit-btn {
+	float: right;
+}
+
+#login-panel, #signup-panel {
+	margin-bottom: 10px;
+}
+
+.error-msg {
+	color: red;
+	padding-left: 15px;
+}

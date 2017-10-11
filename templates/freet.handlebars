@@ -1,0 +1,19 @@
+<li val="{{_id}}" class="list-group-item tweet-li">
+	<span class="username-cell">{{author.fullName}}</span> @{{author.username}}
+	<span class="dot-and-time"> &middot {{formatRelative timestamp}}</span>
+	{{#equal user.username author.username}}
+	<a class="remove-link" href="#">Remove</a>
+	{{else}}
+	<a class="refreet-link" href="#">Refreet</a>
+	{{/equal}}
+	{{#if isRefreet}}
+	<div class="panel panel-default refreet-panel">
+  		<div class="panel-body refreet-panel-body">		
+	  		<span class="username-cell">{{originalFreetAuthor.fullName}}</span> @{{originalFreetAuthor.username}}</br>
+			{{message}}
+  		</div>
+	</div>
+	{{else}}
+	</br>{{message}}
+	{{/if}}
+</li>

@@ -1,0 +1,41 @@
+{
+  "name": "ekohrs_fritter",
+  "version": "1.0.0",
+  "description": "Using Mocha ==========",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "handlebars templates/header.handlebars templates/freets.handlebars templates/freet.handlebars templates/fritter.handlebars templates/login.handlebars templates/signup.handlebars templates/users.handlebars -f public/js/templates.js && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.mit.edu/6170-fa16/fritter-ekohrs.git"
+  },
+  "author": "Elysa Kohrs",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.1.2",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.1",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.5",
+    "handlebars-intl": "^1.1.2",
+    "jquery": "^3.1.1",
+    "moment": "^2.15.1",
+    "mongoose": "^4.6.3",
+    "mongoose-deep-populate": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "should": "^11.1.0"
+  }
+}
